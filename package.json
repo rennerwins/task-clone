@@ -6,7 +6,7 @@
 		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "exec biome format --write"
 	},
 	"dependencies": {
 		"next": "15.3.4",
